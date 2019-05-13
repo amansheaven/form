@@ -14,6 +14,8 @@
   <title>Document</title>
 </head>
 <body>
+  <!-- NAVBAR -->
+  <a href="./login">Log Out</a>
   <!-- UPPER BODY -->
   <center>
     <input type="text" id="msg">

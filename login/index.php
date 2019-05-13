@@ -1,8 +1,8 @@
 <?php
   if(isset($_POST['submit'])) {
+    session_start();
     $username = $_POST['username'];
     if(!empty($username)) {
-      session_start();
       $_SESSION['username'] = $username;
       header('Location: ../index.php');
     } else {
